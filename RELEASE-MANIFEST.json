@@ -1,10 +1,10 @@
 {
   "schema": "oqvian.public-release-manifest.v1",
   "release_name": "OQVIAN Recall Remedy Review \u2014 sanitized source snapshot",
-  "source_development_commit": "8e24c48fe1df80a9d04e3e7313ea6c23692ec980",
+  "source_development_commit": "d15cd12a90953bf65a1adf1edfd266a908c04f60",
   "application_license": "Apache-2.0",
   "license_scope": "application code only; see NOTICE and DEPENDENCIES.md for excluded third-party material",
-  "file_count": 56,
+  "file_count": 60,
   "files": [
     {
       "path": ".gitignore",
@@ -37,9 +37,14 @@
       "sha256": "ead16a4c6bff2a493f30f9f8a111cd9b645a9d88f7c0f7e5b10ed9ecf60f4192"
     },
     {
+      "path": "PUBLIC-DEMO.md",
+      "bytes": 2479,
+      "sha256": "8bbc1935f5a204f2a2e485dec09e0dffabd6bda2dbe8e879e05e12c0e3c4379a"
+    },
+    {
       "path": "README.md",
-      "bytes": 3890,
-      "sha256": "3d749f620993e73c29675d15cc0e5cd7a61d06df663c4c79d558a196bfe29807"
+      "bytes": 4128,
+      "sha256": "f33e6662367c12b8eba2df489a32aa0d26d0358ca6489b9de9398baedaf68329"
     },
     {
       "path": "application/backend/API-CONTRACT.md",
@@ -285,6 +290,21 @@
       "path": "application/ops/receipt_vault.py",
       "bytes": 10583,
       "sha256": "37eaa5222a49380cadcddb0828c2e470d1ac1ffd633e0d21271eb950d306efbd"
+    },
+    {
+      "path": "application/public_gateway/README.md",
+      "bytes": 6701,
+      "sha256": "f93da279e3c95affb730ec64f622e3df33b8f6dc294679ce25cf301ebddaf1bb"
+    },
+    {
+      "path": "application/public_gateway/gateway.py",
+      "bytes": 19631,
+      "sha256": "fb4ac4d5c632cfca117d487fc145885e68796f73818849e8a8050794a4afe68c"
+    },
+    {
+      "path": "application/public_gateway/public-demo.css",
+      "bytes": 422,
+      "sha256": "e718ca60f0da53dfdfc97da9f7f866bc2ffd88944b9d7cc88cfc32dcf7cb41f1"
     }
   ]
 }

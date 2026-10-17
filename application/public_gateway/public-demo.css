@@ -1,0 +1,25 @@
+.public-demo-notice {
+  display: block;
+  margin: 0;
+  padding: 0.6rem 1rem;
+  background: #fff4d6;
+  color: #3a2a00;
+  border-bottom: 2px solid #c98a00;
+  font: 0.9rem/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.public-demo-notice strong {
+  font-weight: 700;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  height: 100dvh;
+}
+
+#root,
+.app {
+  min-height: 0;
+}
