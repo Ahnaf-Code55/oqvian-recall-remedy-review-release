@@ -1,0 +1,285 @@
+{
+  "schema": "oqvian.public-release-manifest.v1",
+  "release_name": "OQVIAN Recall Remedy Review \u2014 sanitized source snapshot",
+  "source_development_commit": "84ebc812a5fc5c813660a58fad742171825087ac",
+  "application_license": "Apache-2.0",
+  "license_scope": "application code only; see NOTICE and DEPENDENCIES.md for excluded third-party material",
+  "file_count": 55,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 130,
+      "sha256": "198ba0da9245fb07a35fe9bdf607ff879deef3c45a2dc03ea8bc4c6c4dbcc9dc"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 1405,
+      "sha256": "a5f72cf0d3d6fd7478cbb7f0d75f212f94357c07d74e609c3ddcc742fd9f1927"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 1294,
+      "sha256": "0c08167bbbb8ac3ec89155fd4c8096074e21befa64c6ac0c72757ce69758e7da"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1845,
+      "sha256": "ead16a4c6bff2a493f30f9f8a111cd9b645a9d88f7c0f7e5b10ed9ecf60f4192"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3477,
+      "sha256": "a2312338222f4aab72e0bc385755c043ff1fa6e0753b9822e982d4c9fb8e8b5e"
+    },
+    {
+      "path": "application/backend/API-CONTRACT.md",
+      "bytes": 2043,
+      "sha256": "34c2e565804a556117da783ced8296f517ac52676fd5fb2129ac2e8620c49537"
+    },
+    {
+      "path": "application/backend/private_runtime.py",
+      "bytes": 5089,
+      "sha256": "7cec91843f1660bcea7d539cfbe0a3650632973664199d524f654c49107280c5"
+    },
+    {
+      "path": "application/backend/server.py",
+      "bytes": 33237,
+      "sha256": "7a75d9427e29011c880fa460521ba06a11ccec867667f7f0eb7f1a67fd931c60"
+    },
+    {
+      "path": "application/data/README.md",
+      "bytes": 594,
+      "sha256": "6fafb6d5c6885883a9b519481b47e548f9a941c22b066b4a0dc3bf053f1bfd0c"
+    },
+    {
+      "path": "application/data/cases.json",
+      "bytes": 3835,
+      "sha256": "2c6421ec5389e202414b5596c63274166a68a16ab68d0ca53f6e88d54ec915cf"
+    },
+    {
+      "path": "application/data/notices.json",
+      "bytes": 15395,
+      "sha256": "a30d3b09d764b9573e67ba671fc22115e8455176d97317be82ede3ccd32e6c4e"
+    },
+    {
+      "path": "application/data/sources/cpsc-10896.txt",
+      "bytes": 5369,
+      "sha256": "164c2cfbadc38ec58bed346f314477ad5afae63e02f85a051811e1979ac83236"
+    },
+    {
+      "path": "application/data/sources/cpsc-8374.txt",
+      "bytes": 5219,
+      "sha256": "ac7e3da0522cc9ae1bedd48444ed17b40af700530c874edd9069ec7f2c764025"
+    },
+    {
+      "path": "application/data/sources/cpsc-974.txt",
+      "bytes": 4973,
+      "sha256": "31352e8c34da00aaf4b4621ad7ee638befe779f37405cc66b4014273bb18b715"
+    },
+    {
+      "path": "application/data/sources/cpsc-9982.txt",
+      "bytes": 5960,
+      "sha256": "4b636f0db8663a24c377a087be2e7b39f1545428fdfe81a911783f3fa3aa27ca"
+    },
+    {
+      "path": "application/data/sources/york-api-record-974.json",
+      "bytes": 3637,
+      "sha256": "9e2fb57ec5465c0fd09a045de905ec8ba9a124460150625d4ec088a3e7d5fa06"
+    },
+    {
+      "path": "application/data/york-source-comparison.json",
+      "bytes": 2227,
+      "sha256": "9591784feaca5802b8ff70e0c5566e60d8445611ee9d3b0a2386e9f006376ee6"
+    },
+    {
+      "path": "application/frontend/.gitignore",
+      "bytes": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+    },
+    {
+      "path": "application/frontend/.oxlintrc.json",
+      "bytes": 245,
+      "sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4"
+    },
+    {
+      "path": "application/frontend/README.md",
+      "bytes": 641,
+      "sha256": "fd9f76b09de7fba5055f9fe906e74ca09de3b3fb15f5043cc6a8884609f3c155"
+    },
+    {
+      "path": "application/frontend/index.html",
+      "bytes": 518,
+      "sha256": "d815be9631f4dc6ec7bd0fdadd180ef549077ca6a2aaa8bc61020a9f10dba02a"
+    },
+    {
+      "path": "application/frontend/package-lock.json",
+      "bytes": 42206,
+      "sha256": "bc79ac9e10af9b55ba20062719fa67a598209265f8e3f12069f93320226e3700"
+    },
+    {
+      "path": "application/frontend/package.json",
+      "bytes": 528,
+      "sha256": "df2fbbdd1cd0a9f459745d0e67f6835d0b4997844d175a04e31d050344c20f9f"
+    },
+    {
+      "path": "application/frontend/scripts/generate-notices.mjs",
+      "bytes": 3158,
+      "sha256": "40512439f8a51194f18f28b881a5da136e138d802949fe2c2d4f83347f3c5d12"
+    },
+    {
+      "path": "application/frontend/src/App.tsx",
+      "bytes": 20652,
+      "sha256": "251d2161e986d7a1253601c18245745f390f2ea571531c4b60f44c4dc8288ee3"
+    },
+    {
+      "path": "application/frontend/src/api/client.ts",
+      "bytes": 5910,
+      "sha256": "3d8174f66102c649597f3a8cbaaa20a405ba14d8b4c01c207277bc866499db42"
+    },
+    {
+      "path": "application/frontend/src/api/contract.ts",
+      "bytes": 4805,
+      "sha256": "0c0a3b7acc07bf5c4ede35efe0790c21c3a4500cc520f6114d39dea74bc32815"
+    },
+    {
+      "path": "application/frontend/src/api/demoService.ts",
+      "bytes": 4504,
+      "sha256": "1980d67fd07dd11d657a411600d5de29d72a4612ccb70ecb09bba351461ad7ac"
+    },
+    {
+      "path": "application/frontend/src/components/Banner.tsx",
+      "bytes": 482,
+      "sha256": "4361e51eda5f035c36657e6da3aae46a0d5e0465716fe97ead28993da2057cab"
+    },
+    {
+      "path": "application/frontend/src/components/PassageCard.tsx",
+      "bytes": 1581,
+      "sha256": "bf9435113d1d6b1ed8afdafa286dc2ca6dc86660e0aff45bec157d8bfba56a19"
+    },
+    {
+      "path": "application/frontend/src/components/StatusChip.tsx",
+      "bytes": 703,
+      "sha256": "afad56474def89c7eb600e58f050ad6f6b86030247b1260e52a521e26f97c7d0"
+    },
+    {
+      "path": "application/frontend/src/data/cases.ts",
+      "bytes": 8882,
+      "sha256": "56f1334baf0d8e9ab2a404e917780c8565727c99c73ec84a2ae756cf2cb214b8"
+    },
+    {
+      "path": "application/frontend/src/data/conditions.ts",
+      "bytes": 17599,
+      "sha256": "68a7c8ae23572f9c2e4420e45671c78daac0f5d550572202472ff3c25257c42c"
+    },
+    {
+      "path": "application/frontend/src/data/corpus.ts",
+      "bytes": 5197,
+      "sha256": "00af8cfb83d0645af0cf6abddc2fc8aa8625b41f994745d5e0a8823e9c25e1fe"
+    },
+    {
+      "path": "application/frontend/src/data/notices.json",
+      "bytes": 185723,
+      "sha256": "971bc7b663c150c0c009794d198b349a1ee7a54e95d0f6f26606150344cae267"
+    },
+    {
+      "path": "application/frontend/src/index.css",
+      "bytes": 3444,
+      "sha256": "fcd0af23e571a0112bec1b22a1a08772cd256e04a794628af042feff6494eec5"
+    },
+    {
+      "path": "application/frontend/src/main.tsx",
+      "bytes": 230,
+      "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2"
+    },
+    {
+      "path": "application/frontend/src/review/engine.ts",
+      "bytes": 14303,
+      "sha256": "eafcfb965b5b575bb929f170b4e87a3643418426d59b2adcc16dd7cdfbdc93eb"
+    },
+    {
+      "path": "application/frontend/src/screens/CaseLibrary.tsx",
+      "bytes": 5445,
+      "sha256": "c79f786d1c406f75d3190bf519881df1d5a14e95db14d1808240072cbee7ffa1"
+    },
+    {
+      "path": "application/frontend/src/screens/LiveViews.tsx",
+      "bytes": 5557,
+      "sha256": "01755b515fbc90788a43b9ea59d7fd3578981219fa7fb9c8946bfda1393d2603"
+    },
+    {
+      "path": "application/frontend/src/screens/ReviewReceipt.tsx",
+      "bytes": 8465,
+      "sha256": "bdbd34eb86c0abb79b0d186c1f083680d6640332146dd253a8ae26ae672ab2b4"
+    },
+    {
+      "path": "application/frontend/src/screens/ReviewWorkspace.tsx",
+      "bytes": 24151,
+      "sha256": "29f0460e5465307dc407a23ee41fb8a8571ea58d629e701e6fbca25e306d685c"
+    },
+    {
+      "path": "application/frontend/src/screens/SourceComparison.tsx",
+      "bytes": 6259,
+      "sha256": "73589454f9cdc35609c645aa80702bfca511a9cd6876790d65166fd7e168fd14"
+    },
+    {
+      "path": "application/frontend/src/styles.css",
+      "bytes": 21568,
+      "sha256": "7d6aad98ad43d27245f6bf40dba8bdb146d58c3d900a7c6163bc68311363b65b"
+    },
+    {
+      "path": "application/frontend/src/types.ts",
+      "bytes": 7305,
+      "sha256": "c1322409e3de04ae9b8aed9f095aec7d08ba5d9da47dc371cdafbcd17deba678"
+    },
+    {
+      "path": "application/frontend/src/ui/autoplay.ts",
+      "bytes": 6089,
+      "sha256": "2f8fa2b2f0b4f01a805ef2e31f11ae36683814d72cfb3b29aeb3be3cdc01273d"
+    },
+    {
+      "path": "application/frontend/src/ui/labels.ts",
+      "bytes": 2407,
+      "sha256": "874e4d2a69186e44a0b80d181362059665af0ca7d860953b2b42fafafdc73584"
+    },
+    {
+      "path": "application/frontend/src/ui/notes.ts",
+      "bytes": 502,
+      "sha256": "34481b7a1c19552969ff93e55c890366ea575f2bff70ce9142ff106d9707c498"
+    },
+    {
+      "path": "application/frontend/tsconfig.app.json",
+      "bytes": 686,
+      "sha256": "e14eef6260077056d417201f234e0591277054d291fd33f06b33a2553c0a7241"
+    },
+    {
+      "path": "application/frontend/tsconfig.json",
+      "bytes": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "application/frontend/tsconfig.node.json",
+      "bytes": 558,
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "path": "application/frontend/vite.config.ts",
+      "bytes": 161,
+      "sha256": "e1eefd0ed1639c88d1213884ef760516884db9e168190e223fee6b063ad3e088"
+    },
+    {
+      "path": "application/inference/nli_worker.py",
+      "bytes": 6922,
+      "sha256": "e122cf9f3735ff79a15677a04d26969af8f46d37e5bec9b3d341485b397c5fb8"
+    },
+    {
+      "path": "application/ops/receipt_vault.py",
+      "bytes": 10583,
+      "sha256": "37eaa5222a49380cadcddb0828c2e470d1ac1ffd633e0d21271eb950d306efbd"
+    }
+  ]
+}

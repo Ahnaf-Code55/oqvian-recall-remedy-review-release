@@ -1,0 +1,78 @@
+{
+  "RecallID": 974,
+  "RecallNumber": "12102",
+  "RecallDate": "2012-02-03T00:00:00",
+  "Description": "The recall involves Coleman, Coleman Evcon and Red T brand furnaces. The furnaces are silver with white access panels. \"Coleman,\" \"Coleman Evcon\" and \"Red T\" brand names are located on the middle of the front access panel. The model number is written on a faceplate, found by removing both front access panels. The faceplate is found mounted on the left inside surface behind the lower panel. Models included in the recall are: DGAM075BDD DGAM075BDE DGAM075BDF DGAT070BDD DGAT070BDE DGAT070BDF DGAT075BDD DGAT075BDE DGAT075BDF DLAS075BDD DLAS075BDE DLAS075BDF",
+  "URL": "https://www.cpsc.gov/Recalls/2012/Fire-Concerns-Prompt-York-International-to-Reannounce-Recall-of-Gas-Furnaces-for-Manufactured-Homes",
+  "Title": "Fire Concerns Prompt York International to Reannounce Recall of Gas Furnaces for Manufactured Homes",
+  "ConsumerContact": "For more information, including information about installation issues that may lead to the hazard, contact UPG toll-free at (888) 665-4640 between 8 a.m. and 5 p.m. CT Monday through Friday or visit their website at www.dgatprogram.com. UPG Technical Services is also conducting a comprehensive notification and communications program and working with its distributors to locate owners.",
+  "LastPublishDate": "2016-04-15T00:00:00",
+  "Products": [
+    {
+      "Name": "Coleman, Coleman Evcon and Red T Gas Furnaces for Manufactured Homes",
+      "Description": "",
+      "Model": "",
+      "Type": "Furnaces",
+      "CategoryID": "67929",
+      "NumberOfUnits": "About 223,600 in the U.S. and 2,400 in Canada (previously recalled in November 2004)"
+    }
+  ],
+  "Inconjunctions": [
+    {
+      "URL": "https://recalls-rappels.canada.ca/en/alert-recall/coleman-coleman-evcon-and-red-t-brand-furnaces"
+    }
+  ],
+  "Images": [
+    {
+      "URL": "https://www.cpsc.gov/s3fs-public/Recall.2012.12102.05047a.jpg",
+      "Caption": "Recalled gas furnace"
+    },
+    {
+      "URL": "https://www.cpsc.gov/s3fs-public/Recall.2012.12102.05047b.jpg",
+      "Caption": "Recalled gas furnace label"
+    }
+  ],
+  "Injuries": [
+    {
+      "Name": "The firm has received reports of 393 incidents, including some involving extensive property damage that could be related to these hazards, 366 of those reports were received after the November 2004 recall announcement. No injuries have been reported."
+    }
+  ],
+  "Manufacturers": [
+    {
+      "Name": "Unitary Products Group (UPG), a division of York International Corp., of York, Pa.",
+      "CompanyID": ""
+    }
+  ],
+  "Retailers": [
+    {
+      "Name": "Nationwide between 1995 and 2000 as original equipment in manufactured homes and as replacement furnaces in manufactured homes.",
+      "CompanyID": ""
+    }
+  ],
+  "Importers": [],
+  "Distributors": [],
+  "SoldAtLabel": null,
+  "ManufacturerCountries": [
+    {
+      "Country": "United States"
+    }
+  ],
+  "ProductUPCs": [],
+  "Hazards": [
+    {
+      "Name": "The furnace can overheat and cause the heat-exchanger to crack and create openings that allow flames to be exposed. When this happens, drywall and other nearby combustibles are exposed to the flames, posing a fire and smoke hazard to consumers.",
+      "HazardType": "",
+      "HazardTypeID": ""
+    }
+  ],
+  "Remedies": [
+    {
+      "Name": "Consumers should immediately stop using the furnace until it has been inspected and repaired. Consumers should contact UPG to schedule a free inspection and repair of any furnace involved in the recall."
+    }
+  ],
+  "RemedyOptions": [
+    {
+      "Option": "Repair"
+    }
+  ]
+}

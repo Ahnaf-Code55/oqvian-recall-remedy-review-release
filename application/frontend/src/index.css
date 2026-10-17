@@ -1,0 +1,163 @@
+:root {
+  /* ---------- Brand palette (supplied) ---------- */
+  --brand-cyan: #00e5ff;
+  --brand-sky: #00bfff;
+  --brand-electric: #0066ff;
+  --brand-royal: #0033cc;
+  --brand-indigo: #1900a8;
+  --brand-purple: #8500ff;
+
+  /* Full brand ramp, cyan -> purple (matches the logo direction). */
+  --brand-gradient: linear-gradient(
+    135deg,
+    var(--brand-cyan) 0%,
+    var(--brand-sky) 18%,
+    var(--brand-electric) 45%,
+    var(--brand-royal) 68%,
+    var(--brand-indigo) 84%,
+    var(--brand-purple) 100%
+  );
+
+  /* Bright variant that keeps dark text legible across the whole run. */
+  --brand-gradient-cta: linear-gradient(120deg, var(--brand-cyan), var(--brand-sky) 62%, #3aa9ff);
+
+  /* ---------- Surfaces (deep navy, tinted toward indigo) ---------- */
+  --bg: #05081a;
+  --bg-soft: #080d22;
+  --panel: #0b1230;
+  --panel-2: #0f1739;
+  --panel-3: #16205a;
+  --line: #23307e;
+  --line-soft: #161f52;
+
+  /* ---------- Type ---------- */
+  --text: #e9f1ff;
+  --text-2: #a8b7e4;
+  --text-3: #7b89b8;
+
+  /* ---------- Accents ---------- */
+  --accent: var(--brand-sky);
+  --accent-2: var(--brand-electric);
+
+  /* ---------- Status: solid, text-on-dark, tint, border ---------- */
+  --ok: #2ed3a0;
+  --ok-text: #b6f5de;
+  --ok-soft: rgba(46, 211, 160, 0.13);
+  --ok-line: rgba(46, 211, 160, 0.42);
+  --ok-ink: #04140d;
+
+  --warn: #f2b441;
+  --warn-text: #ffe1a6;
+  --warn-soft: rgba(242, 180, 65, 0.12);
+  --warn-line: rgba(242, 180, 65, 0.44);
+  --warn-ink: #1c1300;
+
+  --danger: #ff5f7e;
+  --danger-text: #ffc7d0;
+  --danger-soft: rgba(255, 95, 126, 0.12);
+  --danger-line: rgba(255, 95, 126, 0.46);
+  --danger-ink: #2a0009;
+
+  --info: #38bdf8;
+  --info-text: #c8e9fa;
+  --info-soft: rgba(56, 189, 248, 0.11);
+  --info-line: rgba(56, 189, 248, 0.4);
+  --info-ink: #04121c;
+
+  --neutral-soft: rgba(123, 137, 184, 0.12);
+
+  /* ---------- Evidence paper (cool-neutral to sit with the brand) ---------- */
+  --paper: #f4f6fc;
+  --paper-head: #e7ebf8;
+  --paper-prov: #edf0fa;
+  --paper-line: #d9dff0;
+  --paper-text: #121a2e;
+  --paper-muted: #5d6788;
+  --paper-link: var(--brand-royal);
+
+  --scroll-thumb: #22307e;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+  --gap: 16px;
+
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, system-ui, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-mono: "Cascadia Mono", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+button {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+}
+
+::selection {
+  background: rgba(0, 191, 255, 0.34);
+}
+
+/* Scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}

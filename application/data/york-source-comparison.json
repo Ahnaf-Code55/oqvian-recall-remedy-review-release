@@ -1,0 +1,23 @@
+{
+  "api_source": "https://www.saferproducts.gov/RestWebServices/Recall?format=json",
+  "api_record_url": "https://www.cpsc.gov/Recalls/2012/Fire-Concerns-Prompt-York-International-to-Reannounce-Recall-of-Gas-Furnaces-for-Manufactured-Homes",
+  "api_recall_date": "2012-02-03T00:00:00",
+  "api_last_publish_date": "2016-04-15T00:00:00",
+  "api_remedy_text": "Consumers should immediately stop using the furnace until it has been inspected and repaired. Consumers should contact UPG to schedule a free inspection and repair of any furnace involved in the recall.",
+  "api_snapshot_retrieved_at_utc": "2026-10-15T08:29:39.415799+00:00",
+  "api_snapshot_status": "Observed retained public API response; not proof of current API/page agreement.",
+  "html_source": "https://www.cpsc.gov/Recalls/2012/Fire-Concerns-Prompt-York-International-to-Reannounce-Recall-of-Gas-Furnaces-for-Manufactured-Homes",
+  "html_source_sha256": "31352e8c34da00aaf4b4621ad7ee638befe779f37405cc66b4014273bb18b715",
+  "html_update_note": "August 10, 2018",
+  "html_remedy_text": "Consumers should immediately stop using the recalled furnaces and contact UPG to schedule a free inspection and receive a $100 towards the cost of a new replacement UPG furnace, if the inspected furnace is included in the recall. Previously repaired units are not eligible for the refund.\n",
+  "html_snapshot_status": "Observed retained current-page text at recorded retrieval; not archived original; live freshness not established.",
+  "interpretation": "Retained API and current official webpage snapshots differ. Do not use API LastPublishDate as proof of current webpage content. The webpage update note is not an archived historical version.",
+  "api_selected_records_sha256": "3276d12f12d5ab38c2159452dfa75d2e398c73dee5809dbe04e28a208beef897",
+  "api_record_sha256": "9e2fb57ec5465c0fd09a045de905ec8ba9a124460150625d4ec088a3e7d5fa06",
+  "api_record_file": "sources/york-api-record-974.json",
+  "html_remedy_type_text": "Refund",
+  "html_remedy_section_id": "974:Remedy_instructions:9",
+  "html_remedy_section_sha256": "3b32d911d2e485a063bd452eb3a0b4738cce4dddb5c8d0a4b88f4b582028683f",
+  "html_remedy_start_offset": 1720,
+  "html_remedy_end_offset_exclusive": 2009
+}

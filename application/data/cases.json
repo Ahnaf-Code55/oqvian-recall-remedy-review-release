@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "fixture_notice": "All histories below are constructed functional fixtures, not real consumer incidents.",
+  "cases": [
+    {
+      "case_id": "vitamix-2018-2024",
+      "title": "Vitamix: earlier repair vs expanded later notice",
+      "notice_ids": [
+        "8374",
+        "9982"
+      ],
+      "review_question": "Does a claimed 2018 repair alone satisfy the later 2024 notice?",
+      "fixture_status": "constructed functional fixture",
+      "history_template": {
+        "prior_repair_claim": "yes",
+        "prior_action_date": "2018 (owner statement; constructed)",
+        "kit_received": "unknown",
+        "kit_installed": "unknown",
+        "fact_provenance": {
+          "exact_model": "not supplied",
+          "serial": "not supplied",
+          "prior_repair_claim": "constructed fixture",
+          "prior_action_date": "constructed fixture",
+          "kit_received": "not supplied",
+          "kit_installed": "not supplied"
+        }
+      },
+      "case_note": "Later notice says included items include those repaired in the previous recall; do not treat a related product match as confirmed identity.",
+      "required_evidence_section_ids": [
+        "8374:Description:8",
+        "8374:Remedy_instructions:9",
+        "9982:Description:8",
+        "9982:Remedy_instructions:9"
+      ],
+      "history_field_labels": {
+        "prior_repair_claim": "Claimed repair under the 2018 recall",
+        "kit_received": "New 2024 protective shroud repair kit received",
+        "kit_installed": "New 2024 protective shroud attached"
+      }
+    },
+    {
+      "case_id": "dr-power-mower-2026",
+      "title": "DR Power PRO MAX30: received and installed exception",
+      "notice_ids": [
+        "10896"
+      ],
+      "review_question": "Does the supplied history meet the specific received-and-installed kit exception?",
+      "fixture_status": "constructed functional fixture",
+      "history_template": {
+        "exact_model": "WM25030DEN",
+        "serial": "",
+        "kit_received": "yes",
+        "kit_installed": "no",
+        "fact_provenance": {
+          "exact_model": "constructed fixture",
+          "serial": "not supplied",
+          "prior_repair_claim": "not supplied",
+          "prior_action_date": "not supplied",
+          "kit_received": "constructed fixture",
+          "kit_installed": "constructed fixture"
+        }
+      },
+      "case_note": "The notice’s exception requires both receipt and installation. Identity matching is not performed by a guessed serial relationship.",
+      "required_evidence_section_ids": [
+        "10896:Description:8",
+        "10896:Remedy_instructions:9"
+      ]
+    },
+    {
+      "case_id": "york-api-page",
+      "title": "York furnace: retained API vs webpage conflict",
+      "notice_ids": [
+        "974"
+      ],
+      "review_question": "Does prior repair establish refund eligibility under the retained sources?",
+      "fixture_status": "constructed functional fixture",
+      "history_template": {
+        "prior_repair_claim": "yes",
+        "fact_provenance": {
+          "exact_model": "not supplied",
+          "serial": "not supplied",
+          "prior_repair_claim": "constructed fixture",
+          "prior_action_date": "not supplied",
+          "kit_received": "not supplied",
+          "kit_installed": "not supplied"
+        }
+      },
+      "case_note": "Conflicting retained source snapshots block automatic resolution; neither source is treated as a historical original.",
+      "required_evidence_section_ids": [
+        "974:Description:8",
+        "974:Remedy_instructions:9"
+      ]
+    }
+  ],
+  "provenance_classes": [
+    "owner_statement",
+    "third_party_confirmation",
+    "observed_present",
+    "observed_absent",
+    "constructed_fixture",
+    "not_checked",
+    "not_supplied"
+  ]
+}

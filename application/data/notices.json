@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "United States CPSC",
+  "attribution": "Consumer Product Safety Commission (CPSC), https://www.cpsc.gov/; retained excerpts reproduced with source links and hashes. No CPSC endorsement implied.",
+  "notices": [
+    {
+      "cpsc_id": "10896",
+      "document_title": "DR Power Equipment Recalls Lawn Mowers Due to Risk of Serious Injury or Death from Laceration Hazard; Violate Mandatory Standard for Lawn Mowers",
+      "official_url": "https://www.cpsc.gov/Recalls/2026/DR-Power-Equipment-Recalls-Lawn-Mowers-Due-to-Risk-of-Serious-Injury-or-Death-from-Laceration-Hazard-Violate-Mandatory-Standard-for-Lawn-Mowers",
+      "source_sha256": "164c2cfbadc38ec58bed346f314477ad5afae63e02f85a051811e1979ac83236",
+      "source_text_file": "sources/cpsc-10896.txt",
+      "source_retrieved_at_utc": "2026-10-15T08:38:09.542130+00:00",
+      "source_version_status": "retained current-page text at recorded retrieval; not archived original; live freshness not established by this extraction",
+      "annotation_status": "research extraction; section names and offsets retained; not independent condition labels",
+      "sections": [
+        {
+          "section_id": "10896:Name_of_Product:1",
+          "label": "Name of Product",
+          "section_role": "identity",
+          "char_start": 282,
+          "char_end_exclusive": 335,
+          "section_sha256": "57659a4c0dfbf390b9caa8f6624410bd923e34daad652572a14cb6956e0a5291",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "10896:Remedy_type:3",
+          "label": "Remedy type",
+          "section_role": "remedy",
+          "char_start": 613,
+          "char_end_exclusive": 620,
+          "section_sha256": "8132afb04d33f367348c4861cf18b5189baf2ea84748cc16dd719677b2d95627",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "10896:Units:5",
+          "label": "Units",
+          "section_role": "scope",
+          "char_start": 656,
+          "char_end_exclusive": 703,
+          "section_sha256": "09a509294dfc493fd084f1ab7aea68cc6b0a2cea1ad7a659524bc3b3e300ae2c",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "10896:Description:8",
+          "label": "Description",
+          "section_role": "identity_and_scope",
+          "char_start": 1073,
+          "char_end_exclusive": 1846,
+          "section_sha256": "3d3dfd7f389270befee13ff250d66e239e5112db69ff08d6120517734af3ea4b",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "10896:Remedy_instructions:9",
+          "label": "Remedy instructions",
+          "section_role": "remedy",
+          "char_start": 1854,
+          "char_end_exclusive": 2328,
+          "section_sha256": "c727165c21f42cf5f6267a5e7e202c767c0d3fa2de4df3bca66ab1a297a216b0",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "10896:Sold_At:11",
+          "label": "Sold At",
+          "section_role": "sale_scope",
+          "char_start": 2523,
+          "char_end_exclusive": 2669,
+          "section_sha256": "f5dcce9fce9c39ac682b1b9c4e77774a1e8cf9226c05bdfd8b0e596015711705",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        }
+      ],
+      "publication_date": "August 06, 2026",
+      "source_update_note": null
+    },
+    {
+      "cpsc_id": "8374",
+      "document_title": "Vitamix Recalls Ascent and Venturist Series Blending Containers Due to Laceration Hazard",
+      "official_url": "https://www.cpsc.gov/Recalls/2018/Vitamix-Recalls-Ascent-and-Venturist-Series-Blending-Containers-Due-to-Laceration-Hazard",
+      "source_sha256": "ac7e3da0522cc9ae1bedd48444ed17b40af700530c874edd9069ec7f2c764025",
+      "source_text_file": "sources/cpsc-8374.txt",
+      "source_retrieved_at_utc": "2026-10-15T08:30:53.637927+00:00",
+      "source_version_status": "retained current-page text at recorded retrieval; not archived original; live freshness not established by this extraction",
+      "annotation_status": "research extraction; section names and offsets retained; not independent condition labels",
+      "sections": [
+        {
+          "section_id": "8374:Name_of_Product:1",
+          "label": "Name of Product",
+          "section_role": "identity",
+          "char_start": 261,
+          "char_end_exclusive": 332,
+          "section_sha256": "f7d82afe99e8279fadeb6b5c4ca98d744dd0f19c7ffcc5730fb54ba4f7fc1df6",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "8374:Remedy_type:3",
+          "label": "Remedy type",
+          "section_role": "remedy",
+          "char_start": 460,
+          "char_end_exclusive": 467,
+          "section_sha256": "8132afb04d33f367348c4861cf18b5189baf2ea84748cc16dd719677b2d95627",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "8374:Units:5",
+          "label": "Units",
+          "section_role": "scope",
+          "char_start": 503,
+          "char_end_exclusive": 564,
+          "section_sha256": "f087e061fdc3d03574b108ca448b04b29246486bcf1a7f4a36e3d0ccbd233677",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "8374:Description:8",
+          "label": "Description",
+          "section_role": "identity_and_scope",
+          "char_start": 876,
+          "char_end_exclusive": 1475,
+          "section_sha256": "bd27d5f12d478e1329dc56dd19eec6d31861edeaa51fa94b9ca8e13d75362e53",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "8374:Remedy_instructions:9",
+          "label": "Remedy instructions",
+          "section_role": "remedy",
+          "char_start": 1483,
+          "char_end_exclusive": 1660,
+          "section_sha256": "dab8d13bd3bed4f7a227ce6c2b48d92adf06618780951c681dfbfdec29024d48",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "8374:Sold_At:11",
+          "label": "Sold At",
+          "section_role": "sale_scope",
+          "char_start": 1795,
+          "char_end_exclusive": 1959,
+          "section_sha256": "200527bc1adbfa860de52e5a13240c9b0b8ef0173d2c6c5e6e0a7bb5cff627da",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        }
+      ],
+      "publication_date": "August 09, 2018",
+      "source_update_note": null
+    },
+    {
+      "cpsc_id": "974",
+      "document_title": "Fire Concerns Prompt York International to Reannounce Recall of Gas Furnaces for Manufactured Homes",
+      "official_url": "https://www.cpsc.gov/Recalls/2012/Fire-Concerns-Prompt-York-International-to-Reannounce-Recall-of-Gas-Furnaces-for-Manufactured-Homes",
+      "source_sha256": "31352e8c34da00aaf4b4621ad7ee638befe779f37405cc66b4014273bb18b715",
+      "source_text_file": "sources/cpsc-974.txt",
+      "source_retrieved_at_utc": "2026-10-15T08:30:57.463997+00:00",
+      "source_version_status": "retained current-page text at recorded retrieval; not archived original; live freshness not established by this extraction",
+      "annotation_status": "research extraction; section names and offsets retained; not independent condition labels",
+      "sections": [
+        {
+          "section_id": "974:Name_of_Product:2",
+          "label": "Name of Product",
+          "section_role": "identity",
+          "char_start": 326,
+          "char_end_exclusive": 395,
+          "section_sha256": "6631a4bfafe2b99a2394def208d3b28c492c9b99f79143eb2b53f79f0b7dc25a",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "974:Remedy_type:4",
+          "label": "Remedy type",
+          "section_role": "remedy",
+          "char_start": 656,
+          "char_end_exclusive": 663,
+          "section_sha256": "53cac814f776c9c4b85666d5569ecc2c0439ff9474a48a0d17e5f01728dee921",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "974:Units:6",
+          "label": "Units",
+          "section_role": "scope",
+          "char_start": 701,
+          "char_end_exclusive": 786,
+          "section_sha256": "fa0bc234d353dd97234f4ce385b3b4ec481afb58fed48a852fa47aeb38876573",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "974:Description:8",
+          "label": "Description",
+          "section_role": "identity_and_scope",
+          "char_start": 1152,
+          "char_end_exclusive": 1712,
+          "section_sha256": "e39042050ecdf03a5076bf1db7ef6b0463408fa164ac683304779c73a6a858a3",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "974:Remedy_instructions:9",
+          "label": "Remedy instructions",
+          "section_role": "remedy",
+          "char_start": 1720,
+          "char_end_exclusive": 2009,
+          "section_sha256": "3b32d911d2e485a063bd452eb3a0b4738cce4dddb5c8d0a4b88f4b582028683f",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "974:Sold_At:11",
+          "label": "Sold At",
+          "section_role": "sale_scope",
+          "char_start": 2209,
+          "char_end_exclusive": 2337,
+          "section_sha256": "665d8557a4acb52459134d27ec11a0c3ab896cc6ca947dfb7400f59820e95870",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        }
+      ],
+      "publication_date": "February 02, 2012",
+      "source_update_note": "The firm has updated the remedy and number of incidents on August 10, 2018."
+    },
+    {
+      "cpsc_id": "9982",
+      "document_title": "Vitamix Reannounces and Expands Recall of Ascent Series and Venturist Series 8-ounce and 20-ounce Blending Containers and Blade Bases Due to Laceration Hazard; Offers New Repair Kit Due to Additional Injuries",
+      "official_url": "https://www.cpsc.gov/Recalls/2024/Vitamix-Reannounces-and-Expands-Recall-of-Ascent-Series-and-Venturist-Series-8-ounce-and-20-ounce-Blending-Containers-and-Blade-Bases-Due-to-Laceration-Hazard-Offers-New-Repair-Kit-Due-to-Additional-Injuries",
+      "source_sha256": "4b636f0db8663a24c377a087be2e7b39f1545428fdfe81a911783f3fa3aa27ca",
+      "source_text_file": "sources/cpsc-9982.txt",
+      "source_retrieved_at_utc": "2026-10-15T08:30:53.327267+00:00",
+      "source_version_status": "retained current-page text at recorded retrieval; not archived original; live freshness not established by this extraction",
+      "annotation_status": "research extraction; section names and offsets retained; not independent condition labels",
+      "sections": [
+        {
+          "section_id": "9982:Name_of_Product:1",
+          "label": "Name of Product",
+          "section_role": "identity",
+          "char_start": 527,
+          "char_end_exclusive": 629,
+          "section_sha256": "89f076ec76d09e8618c4e5008e27f393ec3500d05e9b96f21978ccb9c9d14e06",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "9982:Remedy_type:3",
+          "label": "Remedy type",
+          "section_role": "remedy",
+          "char_start": 756,
+          "char_end_exclusive": 763,
+          "section_sha256": "8132afb04d33f367348c4861cf18b5189baf2ea84748cc16dd719677b2d95627",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "9982:Units:5",
+          "label": "Units",
+          "section_role": "scope",
+          "char_start": 797,
+          "char_end_exclusive": 963,
+          "section_sha256": "30417a20f7c3c1c119b2d123b539188c65a7adafdbf470a5800b085e67ca1052",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "9982:Description:8",
+          "label": "Description",
+          "section_role": "identity_and_scope",
+          "char_start": 1345,
+          "char_end_exclusive": 1895,
+          "section_sha256": "1d9387f003019dfd30b1b9f552149882bdae4d541c7299092654c242c4dd8314",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "9982:Remedy_instructions:9",
+          "label": "Remedy instructions",
+          "section_role": "remedy",
+          "char_start": 1903,
+          "char_end_exclusive": 2223,
+          "section_sha256": "c980d0a70a4b3c83ce68a0c2bd62d7cd6e2cf8c2d7316ff4ed1ae401ea768ae8",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        },
+        {
+          "section_id": "9982:Sold_At:11",
+          "label": "Sold At",
+          "section_role": "sale_scope",
+          "char_start": 2408,
+          "char_end_exclusive": 2711,
+          "section_sha256": "f12858afa643d5fb37ae125ea347c0bfd9347ef59953ad212b06e3818f944550",
+          "condition_retrieval_candidate": true,
+          "selection_status": "research section annotation, not a validated condition or owner-history label"
+        }
+      ],
+      "publication_date": "June 20, 2024",
+      "source_update_note": null
+    }
+  ]
+}

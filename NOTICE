@@ -1,0 +1,33 @@
+OQVIAN Recall Remedy Review — Third-Party Notices
+
+Application source snapshot copyright 2026 OQVIAN project contributors. Application source files
+in this repository are offered under Apache License 2.0 as described in LICENSE, subject to the
+exclusions below.
+
+U.S. Consumer Product Safety Commission (CPSC) recall text
+-----------------------------------------------------------
+The retained CPSC notice text is public information. CPSC permits copying and distribution of
+recall notices, asks that CPSC be credited, and does not permit implying CPSC endorsement. The
+retained snapshot dates and official source URLs are recorded in application/data/notices.json.
+CPSC material is not relicensed under Apache-2.0 by this repository. No third-party product images
+are included.
+
+NLI model
+---------
+The source references cross-encoder/nli-MiniLM2-L6-H768 at revision
+b95119ce93d3e065de6214e38cd4a97b0f2f2c6d. Its model card declares Apache-2.0. Model weights are
+not included. The model is a separate work and is not relicensed by this repository.
+
+Frontend dependencies
+---------------------
+React and React DOM are MIT; TypeScript is Apache-2.0; Vite and oxlint are MIT. The lockfile records
+license metadata for additional transitive packages, including MPL-2.0, ISC and BSD-3-Clause
+packages. No node_modules or compiled bundle is included. Each dependency retains its own license;
+review the relevant package license before redistributing installed or bundled copies.
+
+Backend runtime packages
+------------------------
+The code may be used with Python, cryptography, PyTorch, Transformers and huggingface_hub. These
+packages and their transitive dependencies are not included here and retain their own licenses.
+Resolve the applicable package notices for the exact target environment before redistributing a
+container or binary bundle.
