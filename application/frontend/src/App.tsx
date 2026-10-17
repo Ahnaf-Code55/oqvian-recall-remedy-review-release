@@ -409,11 +409,11 @@ function App() {
           official recall notice?
         </span>
         <span className="statusstrip__facts">
-          <span>Jurisdiction: US CPSC</span>
-          <span>Snapshot: {api.serviceMode === 'live' ? (backendNotices.find((item) => item.cpsc_id === noticeId)?.source_retrieved_at_utc.slice(0, 10) ?? 'not loaded') : notice.retrieved_at_utc.slice(0, 10)}</span>
-          <span>Source set: {api.serviceMode === 'live' ? `${visibleNotices.length} qualified notices` : health ? `${health.corpus_sources} notices / ${health.corpus_sections} sections` : 'loading…'}</span>
+          <span><span className="statusstrip__key">Jurisdiction:</span> US CPSC</span>
+          <span><span className="statusstrip__key">Snapshot:</span> {api.serviceMode === 'live' ? (backendNotices.find((item) => item.cpsc_id === noticeId)?.source_retrieved_at_utc.slice(0, 10) ?? 'not loaded') : notice.retrieved_at_utc.slice(0, 10)}</span>
+          <span><span className="statusstrip__key">Source set:</span> {api.serviceMode === 'live' ? `${visibleNotices.length} qualified notices` : health ? `${health.corpus_sources} notices / ${health.corpus_sections} sections` : 'loading…'}</span>
           <span>
-            Inference:{' '}
+            <span className="statusstrip__key">Inference:</span>{' '}
             {api.serviceMode === 'live'
               ? backendHealth?.ai_status ?? 'checking protected service…'
               : health?.inference_available

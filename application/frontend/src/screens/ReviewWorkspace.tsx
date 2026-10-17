@@ -350,7 +350,7 @@ export function ReviewWorkspace(props: ReviewWorkspaceProps) {
               </Banner>
             )}
 
-            <div className={`result ${obsolete ? 'result--obsolete' : ''}`}>
+            <div key={outcome.review_id} className={`result ${obsolete ? 'result--obsolete' : ''}`}>
               <div className="result__headline">
                 <StatusChip tone={propositionTone[outcome.proposition.status]}>
                   {propositionLabel[outcome.proposition.status]}
@@ -487,7 +487,7 @@ export function ReviewWorkspace(props: ReviewWorkspaceProps) {
           </p>
         </div>
         {liveReceipt ? (
-          <div className="passage-stack">
+          <div className="passage-stack" key={liveReceipt.review_id}>
             {liveReceipt.passages.map((passage) => (
               <article className="passage" key={passage.section_id}>
                 <div className="passage__head">
@@ -505,7 +505,7 @@ export function ReviewWorkspace(props: ReviewWorkspaceProps) {
             ))}
           </div>
         ) : outcome ? (
-          <>
+          <div className="passage-stack" key={outcome.review_id}>
             <PassageCard passage={outcome.proposition.passage} caption="cited by the condition" />
             {outcome.proposition.supporting_passages.map((passage) => (
               <PassageCard
@@ -518,7 +518,7 @@ export function ReviewWorkspace(props: ReviewWorkspaceProps) {
             {outcome.identity.passage && (
               <PassageCard passage={outcome.identity.passage} caption="identity text" compact />
             )}
-          </>
+          </div>
         ) : (
           <p className="empty">
             Run a review to see the exact passages that support or contradict the claim.

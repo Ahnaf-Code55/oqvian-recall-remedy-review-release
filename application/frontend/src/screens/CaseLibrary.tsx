@@ -52,26 +52,20 @@ export function CaseLibrary({
               onChange={(event) => onQuery(event.target.value)}
             />
           </label>
-          <div className="stat">
-            <span className="stat__value">{total}</span>
-            <span className="stat__label">notice{total === 1 ? '' : 's'} shown</span>
-          </div>
-          <div className="stat">
-            <span className="stat__value">
-              {corpusSources} / {corpusSections}
-            </span>
-            <span className="stat__label">sources / sections</span>
-          </div>
         </div>
+        <p className="register__count" aria-live="polite">
+          <span className="mono">{total}</span> notice{total === 1 ? '' : 's'} shown ·{' '}
+          <span className="mono">{corpusSources} / {corpusSections}</span> sources / sections
+        </p>
 
         <div className="notice-grid">
           {notices.map((notice) => (
             <article className="notice-card" key={notice.cpsc_id}>
+              <span className="notice-card__id">CPSC {notice.cpsc_id}</span>
               <header className="notice-card__head">
                 <h3>{notice.product}</h3>
-                <span className="notice-card__id">CPSC {notice.cpsc_id}</span>
+                <p className="notice-card__title">{notice.title}</p>
               </header>
-              <p className="notice-card__title">{notice.title}</p>
               <dl className="notice-card__meta">
                 <div>
                   <dt>Recall date</dt>
@@ -96,7 +90,7 @@ export function CaseLibrary({
               <footer className="notice-card__foot">
                 <button
                   type="button"
-                  className="btn btn--primary"
+                  className="btn"
                   onClick={() => onOpenNotice(notice.cpsc_id)}
                 >
                   Open in review workspace
@@ -138,7 +132,7 @@ export function CaseLibrary({
               <p className="fixture__expected">{fixture.expected_question}</p>
               <button
                 type="button"
-                className="btn btn--primary"
+                className="btn"
                 onClick={() => onLoadFixture(fixture.id)}
               >
                 Load this fixture

@@ -29,6 +29,12 @@ The private API requires `OQVIAN_AUTH_FILE`, `OQVIAN_RECEIPT_KEY_FILE`, and `OQV
 
 ## Public-release scope
 
-This is a curated source snapshot from development commit `84ebc812a5fc5c813660a58fad742171825087ac`, with environment-specific mount paths replaced by the required `OQVIAN_NOTEBOOK_SHARED_ROOTS` setting. It excludes Git history, private deployment/evidence notes, screenshots, videos, pitch assets, model weights, generated build output, dependency installations, and OQVIAN logo/favicons whose separate redistribution terms were not confirmed. The frontend uses a simple text mark in their place.
+This is a curated source snapshot from development commit `8e24c48fe1df80a9d04e3e7313ea6c23692ec980`, with environment-specific mount paths replaced by the required `OQVIAN_NOTEBOOK_SHARED_ROOTS` setting. It excludes Git history, private deployment/evidence notes, screenshots, videos, pitch assets, model weights, generated build output, dependency installations, and OQVIAN logo/favicons whose separate redistribution terms were not confirmed. The frontend uses a simple text mark in their place.
 
 Application code is offered under Apache-2.0; see `LICENSE`. CPSC text and separately fetched libraries/model keep their own terms; see `NOTICE` and `DEPENDENCIES.md`. Apache-2.0 does not grant OQVIAN name or trademark rights.
+
+## Team
+
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the four team members and their recorded contributions.
+
+For the authenticated backend deployment, build the frontend with `VITE_SERVICE_MODE=live npm run build`. The default development command above deliberately opens the labeled rules-only interface demo. Keep the live service on private loopback transport; do not place credentials in Vite configuration.

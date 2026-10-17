@@ -1,91 +1,60 @@
+/*
+ * OQVIAN — the reviewer's docket.
+ *
+ * The logo is two folded documents meeting. The interface follows that idea:
+ * an earlier repair record set against a later official notice, read on paper,
+ * annotated in ink. One accent (the logo's royal blue) means "the reviewer acts
+ * here"; status inks always travel with a text label and a glyph.
+ */
 :root {
-  /* ---------- Brand palette (supplied) ---------- */
-  --brand-cyan: #00e5ff;
-  --brand-sky: #00bfff;
-  --brand-electric: #0066ff;
-  --brand-royal: #0033cc;
-  --brand-indigo: #1900a8;
-  --brand-purple: #8500ff;
+  /* Ground and ink */
+  --bg: #f3f2ee;
+  --sheet: #fbfbf9;
+  --sheet-2: #eceae4;
+  --ink: #16192b;
+  --ink-2: #474c61;
+  --ink-3: #5f6478;
+  --rule: #d6d3ca;
+  --rule-strong: #b9b5a9;
 
-  /* Full brand ramp, cyan -> purple (matches the logo direction). */
-  --brand-gradient: linear-gradient(
-    135deg,
-    var(--brand-cyan) 0%,
-    var(--brand-sky) 18%,
-    var(--brand-electric) 45%,
-    var(--brand-royal) 68%,
-    var(--brand-indigo) 84%,
-    var(--brand-purple) 100%
-  );
+  /* The one accent: the logo's royal blue */
+  --accent: #2338c9;
+  --accent-soft: rgba(35, 56, 201, 0.08);
 
-  /* Bright variant that keeps dark text legible across the whole run. */
-  --brand-gradient-cta: linear-gradient(120deg, var(--brand-cyan), var(--brand-sky) 62%, #3aa9ff);
+  /* The second ink: the logo's violet corner, darkened. It never means "act";
+     it marks structure — section numbers, notice IDs, the folded corner of a
+     cited sheet. */
+  --mark: #5b23b8;
+  --mark-fold: #dcd2f2;
 
-  /* ---------- Surfaces (deep navy, tinted toward indigo) ---------- */
-  --bg: #05081a;
-  --bg-soft: #080d22;
-  --panel: #0b1230;
-  --panel-2: #0f1739;
-  --panel-3: #16205a;
-  --line: #23307e;
-  --line-soft: #161f52;
+  /* The masthead is the docket's cover: ink, with paper-coloured type. */
+  --cover: #14172a;
+  --cover-ink: #f1f0f6;
+  --cover-ink-2: #aeb2c8;
 
-  /* ---------- Type ---------- */
-  --text: #e9f1ff;
-  --text-2: #a8b7e4;
-  --text-3: #7b89b8;
+  /* Status inks (each >= 4.5:1 on --bg and --sheet) */
+  --ok: #1d6b3f;
+  --ok-soft: rgba(29, 107, 63, 0.08);
+  --warn: #855400;
+  --warn-soft: rgba(196, 135, 20, 0.12);
+  --danger: #b3261e;
+  --danger-soft: rgba(179, 38, 30, 0.07);
+  --info: #22558a;
+  --info-soft: rgba(34, 85, 138, 0.08);
 
-  /* ---------- Accents ---------- */
-  --accent: var(--brand-sky);
-  --accent-2: var(--brand-electric);
+  /* Official text */
+  --quote-bg: #ffffff;
 
-  /* ---------- Status: solid, text-on-dark, tint, border ---------- */
-  --ok: #2ed3a0;
-  --ok-text: #b6f5de;
-  --ok-soft: rgba(46, 211, 160, 0.13);
-  --ok-line: rgba(46, 211, 160, 0.42);
-  --ok-ink: #04140d;
+  --radius: 3px;
+  --gap: 24px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 
-  --warn: #f2b441;
-  --warn-text: #ffe1a6;
-  --warn-soft: rgba(242, 180, 65, 0.12);
-  --warn-line: rgba(242, 180, 65, 0.44);
-  --warn-ink: #1c1300;
+  /* Local stacks only: nothing is fetched from a font CDN. */
+  --font-ui: "IBM Plex Sans", "Source Sans 3", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Charter", "Bitstream Charter", "Iowan Old Style", "Source Serif 4", "Palatino Linotype", Georgia, serif;
+  --font-mono: "IBM Plex Mono", "JetBrains Mono", "Cascadia Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
 
-  --danger: #ff5f7e;
-  --danger-text: #ffc7d0;
-  --danger-soft: rgba(255, 95, 126, 0.12);
-  --danger-line: rgba(255, 95, 126, 0.46);
-  --danger-ink: #2a0009;
-
-  --info: #38bdf8;
-  --info-text: #c8e9fa;
-  --info-soft: rgba(56, 189, 248, 0.11);
-  --info-line: rgba(56, 189, 248, 0.4);
-  --info-ink: #04121c;
-
-  --neutral-soft: rgba(123, 137, 184, 0.12);
-
-  /* ---------- Evidence paper (cool-neutral to sit with the brand) ---------- */
-  --paper: #f4f6fc;
-  --paper-head: #e7ebf8;
-  --paper-prov: #edf0fa;
-  --paper-line: #d9dff0;
-  --paper-text: #121a2e;
-  --paper-muted: #5d6788;
-  --paper-link: var(--brand-royal);
-
-  --scroll-thumb: #22307e;
-
-  --radius: 14px;
-  --radius-sm: 9px;
-  --gap: 16px;
-
-  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, system-ui, sans-serif;
-  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
-  --font-mono: "Cascadia Mono", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
-
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -98,14 +67,18 @@ body,
   height: 100%;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   margin: 0;
   background: var(--bg);
-  color: var(--text);
+  color: var(--ink);
   font-family: var(--font-ui);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -113,16 +86,25 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-weight: 650;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
 }
 
-p {
+p,
+li {
   margin: 0;
+  text-wrap: pretty;
 }
 
 a {
   color: var(--accent);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 button {
@@ -132,32 +114,19 @@ button {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-  border-radius: 4px;
 }
 
 .mono {
   font-family: var(--font-mono);
   font-size: 0.86em;
+  font-variant-numeric: tabular-nums;
 }
 
 ::selection {
-  background: rgba(0, 191, 255, 0.34);
+  background: rgba(35, 56, 201, 0.18);
 }
 
-/* Scrollbars */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--scroll-thumb) transparent;
-}
-
-*::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: var(--scroll-thumb);
-  border-radius: 8px;
-  border: 2px solid transparent;
-  background-clip: content-box;
+  scrollbar-color: var(--rule-strong) transparent;
 }

@@ -1,10 +1,10 @@
 {
   "schema": "oqvian.public-release-manifest.v1",
   "release_name": "OQVIAN Recall Remedy Review \u2014 sanitized source snapshot",
-  "source_development_commit": "84ebc812a5fc5c813660a58fad742171825087ac",
+  "source_development_commit": "8e24c48fe1df80a9d04e3e7313ea6c23692ec980",
   "application_license": "Apache-2.0",
   "license_scope": "application code only; see NOTICE and DEPENDENCIES.md for excluded third-party material",
-  "file_count": 55,
+  "file_count": 56,
   "files": [
     {
       "path": ".gitignore",
@@ -15,6 +15,11 @@
       "path": "ATTRIBUTION.md",
       "bytes": 1405,
       "sha256": "a5f72cf0d3d6fd7478cbb7f0d75f212f94357c07d74e609c3ddcc742fd9f1927"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "bytes": 599,
+      "sha256": "e63cabea422a0930796d3b8926f7c044ad108c7624109d2cdf6aecb12c324772"
     },
     {
       "path": "DEPENDENCIES.md",
@@ -33,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3477,
-      "sha256": "a2312338222f4aab72e0bc385755c043ff1fa6e0753b9822e982d4c9fb8e8b5e"
+      "bytes": 3890,
+      "sha256": "3d749f620993e73c29675d15cc0e5cd7a61d06df663c4c79d558a196bfe29807"
     },
     {
       "path": "application/backend/API-CONTRACT.md",
@@ -133,8 +138,8 @@
     },
     {
       "path": "application/frontend/src/App.tsx",
-      "bytes": 20652,
-      "sha256": "251d2161e986d7a1253601c18245745f390f2ea571531c4b60f44c4dc8288ee3"
+      "bytes": 20820,
+      "sha256": "59fe3d330112b7a8fea3834e78c514a4c719cff5510f09cbca664263654db8ad"
     },
     {
       "path": "application/frontend/src/api/client.ts",
@@ -188,8 +193,8 @@
     },
     {
       "path": "application/frontend/src/index.css",
-      "bytes": 3444,
-      "sha256": "fcd0af23e571a0112bec1b22a1a08772cd256e04a794628af042feff6494eec5"
+      "bytes": 2821,
+      "sha256": "74afbc9911bdfbbc53b993a6632c60ab3a6746a0eae317a61a587da7a2d11f21"
     },
     {
       "path": "application/frontend/src/main.tsx",
@@ -203,8 +208,8 @@
     },
     {
       "path": "application/frontend/src/screens/CaseLibrary.tsx",
-      "bytes": 5445,
-      "sha256": "c79f786d1c406f75d3190bf519881df1d5a14e95db14d1808240072cbee7ffa1"
+      "bytes": 5255,
+      "sha256": "74377b49fc8672c3b817ffad9fde2e639f975f97aea398686ec6a783466bf4f3"
     },
     {
       "path": "application/frontend/src/screens/LiveViews.tsx",
@@ -218,8 +223,8 @@
     },
     {
       "path": "application/frontend/src/screens/ReviewWorkspace.tsx",
-      "bytes": 24151,
-      "sha256": "29f0460e5465307dc407a23ee41fb8a8571ea58d629e701e6fbca25e306d685c"
+      "bytes": 24259,
+      "sha256": "c37fd7c240f07cde8619883c98235cd982b3fa459f27b7e33ff1ebd760553dbd"
     },
     {
       "path": "application/frontend/src/screens/SourceComparison.tsx",
@@ -228,8 +233,8 @@
     },
     {
       "path": "application/frontend/src/styles.css",
-      "bytes": 21568,
-      "sha256": "7d6aad98ad43d27245f6bf40dba8bdb146d58c3d900a7c6163bc68311363b65b"
+      "bytes": 30149,
+      "sha256": "49416bbe0f9d70cf349138f58b70698c84702c90d06449c60499d6ca36bba81f"
     },
     {
       "path": "application/frontend/src/types.ts",
